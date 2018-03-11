@@ -24,6 +24,8 @@ int main()
     numbers.push_back(num);
   }
 
+  infile.close();
+
   for(int i=0; i<numbers.size(); i++)
   {
     cout<<numbers.at(i)<<endl;
